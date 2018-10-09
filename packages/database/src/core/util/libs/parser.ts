@@ -85,7 +85,7 @@ export const parseRepoInfo = function(
     parsedUrl.domain !== 'localhost'
   ) {
     fatal(
-      'Cannot parse Firebase url. Please use https://<YOUR FIREBASE>.firebaseio.com'
+      'Eita! Cannot parse Firebase url. Please use https://<YOUR FIREBASE>.firebaseio.com'
     );
   }
 
